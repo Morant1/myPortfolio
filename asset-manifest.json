@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.8c8d3a15.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.f2d99f81.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.f2d99f81.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.c3a59a34.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.3c312896.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.3c312896.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.d351083c.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.d351083c.js.map",
     "static/js/2.b5112398.chunk.js": "/myPortfolio/static/js/2.b5112398.chunk.js",
     "static/js/2.b5112398.chunk.js.map": "/myPortfolio/static/js/2.b5112398.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "precache-manifest.4189ae0520eb5d711b675db297d77384.js": "/myPortfolio/precache-manifest.4189ae0520eb5d711b675db297d77384.js",
+    "precache-manifest.e9d49b080a0f9607155edae40a49cb70.js": "/myPortfolio/precache-manifest.e9d49b080a0f9607155edae40a49cb70.js",
     "service-worker.js": "/myPortfolio/service-worker.js",
-    "static/css/main.8c8d3a15.chunk.css.map": "/myPortfolio/static/css/main.8c8d3a15.chunk.css.map",
+    "static/css/main.c3a59a34.chunk.css.map": "/myPortfolio/static/css/main.c3a59a34.chunk.css.map",
     "static/js/2.b5112398.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.b5112398.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/myPortfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/angular.png": "/myPortfolio/static/media/angular.c30969cd.png",
     "static/media/angular2.png": "/myPortfolio/static/media/angular2.d9bb87a3.png",
     "static/media/appsus.png": "/myPortfolio/static/media/appsus.39c0334b.png",
     "static/media/css.png": "/myPortfolio/static/media/css.1e8f9ddf.png",
-    "static/media/cv.pdf": "/myPortfolio/static/media/cv.6ecbc922.pdf",
+    "static/media/cv.pdf": "/myPortfolio/static/media/cv.7b39612d.pdf",
     "static/media/eventribe.png": "/myPortfolio/static/media/eventribe.e07dbce2.png",
     "static/media/jquery.png": "/myPortfolio/static/media/jquery.a5872891.png",
     "static/media/js.png": "/myPortfolio/static/media/js.c647884d.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.d351083c.js",
     "static/js/2.b5112398.chunk.js",
-    "static/css/main.8c8d3a15.chunk.css",
-    "static/js/main.f2d99f81.chunk.js"
+    "static/css/main.c3a59a34.chunk.css",
+    "static/js/main.3c312896.chunk.js"
   ]
 }
