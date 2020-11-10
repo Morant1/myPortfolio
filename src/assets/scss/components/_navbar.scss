@@ -1,0 +1,250 @@
+nav {
+    position: fixed;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    box-shadow: 1px 0px 1px #0000002e;
+    background-color:rgb(29,29,29);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10px;
+}
+nav ul li {
+        width: 100%;
+        cursor: pointer;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #08fdd8;
+}
+
+nav ul li .link {
+    transition: all .1s ease-in;
+}
+
+nav ul li .link:hover {
+    /* opacity: 0.5; */
+    color:#ff5851;
+}
+
+
+
+nav ul li h3 {
+    font-size: 0.9rem;
+}
+
+nav ul li:not(:first-child) {
+    transform: rotate(-90deg);
+
+}
+
+
+nav ul li .logo {
+    width: 30px;
+}
+
+nav ul li.icon {
+    transform: rotate(0);
+    color: #08fdd8;
+    font-size: 1.3rem;
+    transition: color .3s ease-in;
+}
+
+nav ul li.icon:hover {
+    box-shadow: none;
+    color:#ff5851 ;
+}
+
+nav ul li.icon i {
+    padding: 7px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.active-link {
+    color:#ff5851 ;
+}
+
+
+/* MENU STYLES */
+.menu-wrap {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color:rgb(29,29,29);
+  }
+  
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    z-index: 10;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.scrolled {
+        background-color: black;
+    }
+  }
+  
+  /* Hamburger Line */
+  .menu-wrap .hamburger > div {
+    position: relative;
+    flex: none;
+    z-index: 999;
+    width: 100%;
+    height: 2px;
+    background: rgb(29,29,29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+
+  .menu-wrap .hamburger.scrolled > div {
+    background: #08fdd8;
+  }
+  
+  /* Hamburger Lines - Top & Bottom */
+  .menu-wrap .hamburger > div::before,
+  .menu-wrap .hamburger > div::after {
+    content: '';
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: -10px;
+    width: 100%;
+    height: 3px;
+    border-radius: 28px;
+    background: inherit;
+  }
+  
+  /* Moves Line Down */
+  .menu-wrap .hamburger > div::after {
+    top: 10px;
+  }
+  
+  /* Toggler Animation */
+  .menu-wrap .toggler.active + .hamburger > div {
+    transform: rotate(135deg);
+  }
+  
+  /* Turns Lines Into X */
+  .menu-wrap .toggler.active + .hamburger > div:before,
+  .menu-wrap .toggler.active + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  
+  /* Rotate On Hover When Checked */
+  .menu-wrap .toggler.active:hover + .hamburger > div {
+    transform: rotate(225deg);
+  }
+  
+  /* Show Menu */
+  .menu-wrap .toggler.active ~ .menu {
+    visibility: visible;
+  }
+  
+  .menu-wrap .toggler.active ~ .menu > div {
+    transform: scale(1);
+    transition-duration: 0.75s;
+  }
+  
+  .menu-wrap .toggler.active ~ .menu > div > div {
+    opacity: 1;
+    transition:  opacity 0.4s ease 0.4s;
+  }
+  
+  .menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .menu-wrap .menu > div {
+    background: radial-gradient(black, #ffffffe3);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vh;
+    overflow: hidden;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: lightgrey;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.4s ease;
+
+    &:hover {
+        box-shadow:0px 1px #08fdd8;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 1040px)  {
+
+    nav {
+        display: none;
+    }
+
+    .menu-wrap {
+        display: block;
+    }
+
+  }

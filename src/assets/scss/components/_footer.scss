@@ -1,0 +1,39 @@
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #08fdd8;
+    position: relative;
+    font-family: 'Montserrat';
+    background-color: rgb(29, 29, 29);
+    padding:15px;
+}
+
+
+
+footer p {
+    color: lightgray;
+    font-size: 0.7rem;
+}
+footer .contact {
+    padding:10px;
+    font-size:1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+    footer {
+        background-color: black;
+        padding:10px;
+    }
+}
+
+
+
+
+

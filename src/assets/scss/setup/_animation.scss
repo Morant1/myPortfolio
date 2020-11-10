@@ -1,0 +1,88 @@
+
+@keyframes rotate{
+    0% {
+        transform: rotateY(0deg)
+    }
+    25% {
+        transform:rotateY(-180deg);
+    }
+    50% {
+        transform:rotateY(0deg);
+    }
+    75% {
+        transform:rotateY(180deg);
+    }
+    100% {
+        transform:rotateY(0deg);
+    }
+  }
+  
+  @keyframes load {
+    0% {
+      width:100%;
+      opacity: 0.8;
+    }
+    50% {
+        width:75%;
+        opacity: 0.9;
+    }
+    100% {
+      width:50%;
+      opacity: 1;
+    }
+  }
+   
+  @keyframes type {
+    0% {
+        color:white;
+        width: 0ch;
+    }
+    100% {
+        color:white;
+        width: 40ch;
+    }
+}
+  
+  @keyframes bounce{
+    100%{
+      top: -20px;
+      text-shadow:  0 50px 25px rgb(29, 29, 29);
+    }
+  }
+
+  
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
+
+
+@keyframes rainbow_animation {
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes zoomeffect{
+    0%{
+        object-position:center;
+      transform:scale(1,1);
+    }
+    50%{
+        object-position:center;
+      transform:scale(1.03,1.03);
+        }
+    100%{
+        object-position:center;
+      transform:scale(1,1);
+    }
+}

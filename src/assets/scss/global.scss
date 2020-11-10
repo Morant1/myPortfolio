@@ -1,0 +1,20 @@
+// // Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/typography.scss";
+@import "setup/animation.scss";
+
+// // Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+
+
+// // Components
+@import "components/navbar.scss";
+@import "components/header.scss";
+@import "components/about.scss";
+@import "components/projects.scss";
+@import "components/footer.scss";
+
+// // Views

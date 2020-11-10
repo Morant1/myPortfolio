@@ -1,0 +1,208 @@
+.projects-section {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+.projects-section .projects {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding: 50px 0;
+  
+}
+
+.projects-section .projects .tag {
+   font-size: 18px;
+   font-weight: normal;
+   color: #515152;
+   font-family: 'La Belle Aurore', cursive;
+}
+
+
+.projects-section .projects .splash {
+   position: absolute;
+   left: 50%;
+   top:10%;
+overflow: hidden;
+   width: 50%;
+
+
+   &.splash2 {
+    left: 50%;
+    top: 70%;
+
+   }
+}
+
+
+.projects-section .project {
+   display: flex;
+   margin: 50px 0;
+   align-items: initial;
+   filter: drop-shadow(black 2px 4px 6px);
+}
+
+.projects-section .project .img {
+   width: 450px;
+   margin-right: 20px;
+   box-shadow: 0 0 6px 0px lightgrey;
+   transition: all .3s;
+}
+
+.projects-section .project .img:hover {
+   filter: blur(1px)
+}
+
+.projects-section .project .content {
+   color: lightgrey;
+   display: flex;
+   justify-content: space-around;
+   font-family: 'Montserrat';
+   align-items: flex-start;
+   flex-direction: column;
+   width: 450px;
+}
+
+.projects-section .project .content .tech {
+   width:30px;
+   margin-right: 2px;
+   margin-top:0;
+   
+}
+
+.projects-section .project .content .btn {
+   display: flex;
+}
+
+.projects-section .project .content .btn button {
+   background-color: transparent;
+   border: none;
+   font-family: inherit;
+   color: white;
+   cursor: pointer;
+   margin-right: 5px;
+   animation: all .3s;
+}
+
+.projects-section .project .content .btn button:hover {
+   color:#00c4ff;
+}
+
+.projects-section .project .content .btn button i {
+   color: #00c4ff
+}
+
+.projects-section .project .content ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+.projects-section .project .content li {
+   margin: 3px;
+   padding: 5px;
+   font-size: 0.7rem;
+   box-shadow: 0 0 3px white;
+   transition: all .3s;
+   border-radius: 16px;
+}
+
+.projects-section .project .content li:hover {
+   transform:scale(1.02);
+}
+
+.projects-section .project .content h3 {
+   color: #08fdd8;
+   font-family: Montserrat,sans-serif;
+   font-size:1.8rem;
+   letter-spacing: 1px;
+   font-weight: 600;
+   text-align: inherit;   
+   margin-bottom: 15px;
+   margin-top: 5px;
+
+
+}
+
+
+
+@media screen and (max-width: 1040px) {
+
+    
+
+.projects-section .project {
+
+ flex-direction: column;
+ padding: 0 30px;
+ align-items: center;
+ min-width: auto;
+
+ .img {
+    margin-bottom: 20px;
+    margin-right: 0;
+ }
+
+ .content {
+    align-items: center;
+
+    p {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    ul {
+        justify-content: center;
+        align-items: center;
+    }
+}
+}
+}
+
+
+@media screen and (max-width: 615px) {
+
+    .projects-section .project .img {
+        width: 400px;
+    }
+
+    .projects-section .project .content {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 545px) {
+
+    .projects-section .project .img {
+        width: 380px;
+    }
+}
+    
+@media screen and (max-width: 450px) {
+
+    .projects-section .project .img {
+        width: 350px;
+    }
+}
+    
+@media screen and (max-width: 380px) {
+
+    .projects-section .project .img {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .projects-section .project {
+
+        padding: 0;
+     .img {
+        width: 300px;
+    }}
+}
+    
+    
+    

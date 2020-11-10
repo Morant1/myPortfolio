@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #08fdd8;
+    
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: rgb(29, 29, 29) ;
+}
+h2,h3,h4 {
+    margin: 0;
+    text-align: center;
+    font-family: system-ui;
+    font-weight: normal;
+}
+
+ul,li {
+    padding:0
+}
+li {
+    list-style-type: none;
+}
+
+a , a:hover , a:active{
+    text-decoration: none;
+    color:unset
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV */
+
+nav {
+    position: fixed;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    box-shadow: 1px 0px 1px #0000002e;
+    background-color:rgb(29,29,29);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:0 10px;
+}
+nav ul li {
+        width: 100%;
+        cursor: pointer;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #08fdd8;
+}
+
+nav ul li .link {
+    transition: all .1s ease-in;
+}
+
+nav ul li .link:hover {
+    /* opacity: 0.5; */
+    color:#ff5851;
+}
+
+
+
+nav ul li h3 {
+    font-size: 0.9rem;
+}
+
+nav ul li:not(:first-child) {
+    transform: rotate(-90deg);
+
+}
+
+
+nav ul li .logo {
+    width: 30px;
+}
+
+nav ul li.icon {
+    transform: rotate(0);
+    color: #08fdd8;
+    font-size: 1.3rem;
+    transition: color .3s ease-in;
+}
+
+nav ul li.icon:hover {
+    box-shadow: none;
+    color:#ff5851 ;
+}
+
+nav ul li.icon i {
+    padding: 7px;
+    border-radius: 50%;
+    background-color: black;
+}
+
