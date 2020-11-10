@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.3a68cfa4.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.b0ac7ec4.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.b0ac7ec4.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.d351083c.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.d351083c.js.map",
+    "static/js/2.b5112398.chunk.js": "/myPortfolio/static/js/2.b5112398.chunk.js",
+    "static/js/2.b5112398.chunk.js.map": "/myPortfolio/static/js/2.b5112398.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "precache-manifest.df2e19c4a2bad2a91f47a06056c021ea.js": "/myPortfolio/precache-manifest.df2e19c4a2bad2a91f47a06056c021ea.js",
+    "service-worker.js": "/myPortfolio/service-worker.js",
+    "static/css/main.3a68cfa4.chunk.css.map": "/myPortfolio/static/css/main.3a68cfa4.chunk.css.map",
+    "static/js/2.b5112398.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.b5112398.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/myPortfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/angular.png": "/myPortfolio/static/media/angular.c30969cd.png",
+    "static/media/angular2.png": "/myPortfolio/static/media/angular2.d9bb87a3.png",
+    "static/media/appsus.png": "/myPortfolio/static/media/appsus.39c0334b.png",
+    "static/media/css.png": "/myPortfolio/static/media/css.1e8f9ddf.png",
+    "static/media/cv.pdf": "/myPortfolio/static/media/cv.6ecbc922.pdf",
+    "static/media/eventribe.png": "/myPortfolio/static/media/eventribe.e07dbce2.png",
+    "static/media/jquery.png": "/myPortfolio/static/media/jquery.a5872891.png",
+    "static/media/js.png": "/myPortfolio/static/media/js.c647884d.png",
+    "static/media/logo.jpg": "/myPortfolio/static/media/logo.d24a5e65.jpg",
+    "static/media/meme.png": "/myPortfolio/static/media/meme.43516fb1.png",
+    "static/media/mongo.png": "/myPortfolio/static/media/mongo.0fbd04cb.png",
+    "static/media/nodejs.png": "/myPortfolio/static/media/nodejs.4c6c0929.png",
+    "static/media/python.png": "/myPortfolio/static/media/python.cab43a43.png",
+    "static/media/react.png": "/myPortfolio/static/media/react.f6ee6c98.png",
+    "static/media/sass.png": "/myPortfolio/static/media/sass.6597cc35.png",
+    "static/media/splash.png": "/myPortfolio/static/media/splash.969a1992.png",
+    "static/media/sql.png": "/myPortfolio/static/media/sql.8eb01c0a.png",
+    "static/media/vue.png": "/myPortfolio/static/media/vue.2c89899b.png",
+    "static/media/vue2.png": "/myPortfolio/static/media/vue2.c95d1245.png",
+    "static/media/weather.png": "/myPortfolio/static/media/weather.a62932bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d351083c.js",
+    "static/js/2.b5112398.chunk.js",
+    "static/css/main.3a68cfa4.chunk.css",
+    "static/js/main.b0ac7ec4.chunk.js"
+  ]
+}
