@@ -14,7 +14,7 @@ export class Navbar extends Component {
         const navbar = document.querySelector('.menu-wrap .hamburger')
         console.log(navbar)
         window.onscroll = function () {
-            if (window.pageYOffset > 600) {
+            if (window.pageYOffset > 590) {
                 navbar.classList.add('scrolled')
 
             } else {

@@ -25,7 +25,7 @@ export default function About() {
              <div className="btn">
                 <button><a href={require('../assets/img/cv.pdf')} download="Moran's CV">DOWNLOAD MY CV</a></button>
              </div> 
-            <span className="tag">&#60;body&#62;</span>
+            <span className="tag">&#60;/body&#62;</span>
         </div>
         <section className="grid">
             <div className="flip-card">
